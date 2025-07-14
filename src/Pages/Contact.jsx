@@ -12,7 +12,7 @@ console.log(formdata)
     const{register,handleSubmit,reset} = useForm()
 
     const submitform=(data)=>{ 
-    
+     
         let x = [...formdata]
         x.push(data)
         setformdata(x)
